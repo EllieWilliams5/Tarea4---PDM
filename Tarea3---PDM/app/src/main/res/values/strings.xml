@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Tienda Para Computólogos</string>
+    <string name="titulo_tienda">Tienda para Computólogos</string>
+    <string name="subtitulo_registro">Suscríbete para recibir novedades sobre nuestros productos</string>
+    <string name="hint_nombre">Nombre de usuario</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="pregunta_interes">¿Qué te interesa más en estos momentos?</string>
+    <string name="opcion_videojuegos">Videojuegos</string>
+    <string name="opcion_figuras">Figuras</string>
+    <string name="opcion_peliculas">Comics</string>
+    <string name="opcion_libros">Libros</string>
+    <string name="check_notificaciones">Deseo recibir notificaciones</string>
+    <string name="boton_registrarse">REGISTRARSE</string>
+    <string name="boton_entrar_tienda">ENTRAR A LA TIENDA</string>
+    <string name="titulo_catalogo">Catálogo de nuestros productos</string>
+    <string name="producto_1">Figura de Darth Vader</string>
+    <string name="precio_1">$1,500 MXN</string>
+    <string name="producto_2">Figura de Iron Man</string>
+    <string name="precio_2">$1,200 MXN</string>
+    <string name="producto_3">Videojuego. Dark Souls</string>
+    <string name="precio_3">$750 MXN</string>
+    <string name="producto_4">Videojuego. The Last of Us</string>
+    <string name="precio_4">$650 MXN</string>
+    <string name="producto_5">Comic. Batman: The Killing Joke</string>
+    <string name="precio_5">$500 MXN</string>
+    <string name="producto_6">Comic. The Walking Dead: This Sorrowful Life </string>
+    <string name="precio_6">$500 MXN</string>
+    <string name="producto_7">Libro. Choque de Reyes. Canción de Hielo y Fuego 2.</string>
+    <string name="precio_7">$350 MXN</string>
+    <string name="producto_8">Libro. El Último Deseo. La Saga de Geralt de Rivia.</string>
+    <string name="precio_8">$250 MXN</string>
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+
+    <!-- Strings para Carrito Activity-->
+    <string name="titulo_carrito">Carrito de compras</string>
+    <string name="total_orden_placeholder">Total: $0 MXN</string>
+    <string name="boton_continuar_compra">Continuar con la compra</string>
+    <string name="boton_volver_catalogo">Volver al catálogo</string>
+
+    <!-- Strings para Catalogo Activity -->
+    <string name="titulo_catalogo_toolbar">Catálogo</string>
+
+    <!-- Strings para Compra Activity -->
+    <string name="titulo_datos_bancarios">Ingrese sus datos bancarios</string>
+    <string name="hint_nombre_titular">Nombre del titular</string>
+    <string name="hint_numero_tarjeta">Número de tarjeta</string>
+    <string name="hint_fecha_expiracion">Fecha de expiración (MM/AA)</string>
+    <string name="hint_cvv">CVV</string>
+    <string name="btn_volver_carrito">Volver al carrito</string>
+    <string name="btn_finalizar_compra">Finalizar compra</string>
+
+    <!-- Strings para Detalles de producto Activity -->
+    <string name="nombre_producto_placeholder">Nombre del producto</string>
+    <string name="descripcion_producto_placeholder">Descripción del producto aquí.</string>
+    <string name="seleccione_cantidad">Seleccione la cantidad que desea llevar:</string>
+    <string name="boton_anadir_carrito">Añadir al carrito</string>
+
+    <!-- Strings para Perfil Activity -->
+    <string name="perfil_titulo">Perfil del usuario</string>
+    <string name="invited_user">Invitado</string>
+    <string name="no_email">Sin correo</string>
+    <string name="btn_editar_perfil">Editar Perfil</string>
+    <string name="btn_cerrar_sesion">Cerrar Sesión</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="dialog_titulo_direccion">Modificar Dirección</string>
+    <string name="direccion_envio">Dirección de envío: %1$s</string>
+    <string name="funcion_no_implementada">Función no implementada</string>
+    <string name="direccion_envio_placeholder">Dirección de envío:</string>
+    <string name="editar_direccion">Editar Dirección</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="volver_catalogo">Volver al catálogo</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <!-- Strings de Resumen de compra -->
+    <string name="compra_exito">¡Compra realizada con éxito, %1$s!</string>
+    <string name="total_compra">El total de la compra fue de: $%1$d MXN</string>
+    <string name="tarjeta_formato">La compra se realizó a nombre de %1$s con la cuenta: %2$s</string>
+    <string name="direccion_envioo">El pedido se hará a la siguiente dirección registrada en tu perfil:\n%1$s</string>
+    <string name="compra_exitosa">¡Compra realizada con éxito!</string>
+    <string name="resumen_intro">A continuación se muestra un resumen de la compra:</string>
+    <string name="total_compra_default">El total de la compra fue de: $0 MXN</string>
+
+
+
+
+
+
+</resources>

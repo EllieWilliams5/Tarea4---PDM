@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Menú lateral de navegación. Hay opciones para acceder a diferentes secciones de la tienda.
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Agrupación de ítems que se comportan como seleccionables (uno a la vez) -->
+    <group android:checkableBehavior="single">
+
+        <!-- Opción: Inicio -->
+    <item
+        android:id="@+id/nav_inicio"
+        android:title="Inicio"
+        android:icon="@android:drawable/ic_menu_view" />
+
+        <!-- Opción: Perfil de usuario -->
+    <item
+        android:id="@+id/nav_perfil"
+        android:title="Perfil"
+        android:icon="@android:drawable/ic_menu_myplaces" />
+
+        <!-- Opción: Ver el carrito de compras -->
+        <item
+            android:id="@+id/nav_carrito"
+            android:title="Ver carrito"
+            android:icon="@android:drawable/ic_menu_send" />
+
+
+        <!-- Opción: Filtrar catálogo por Videojuegos -->
+    <item
+        android:id="@+id/nav_videojuegos"
+        android:title="Ver Videojuegos"
+        android:icon="@android:drawable/ic_menu_compass" />
+
+        <!-- Opción: Filtrar catálogo por Figuras -->
+    <item
+        android:id="@+id/nav_figuras"
+        android:title="Ver Figuras"
+        android:icon="@android:drawable/ic_menu_gallery" />
+
+        <!-- Opción: Filtrar catálogo por Cómics -->
+    <item
+        android:id="@+id/nav_comics"
+        android:title="Ver Comics"
+        android:icon="@android:drawable/ic_menu_agenda" />
+
+
+        <!-- Opción: Filtrar catálogo por Libros -->
+    <item
+        android:id="@+id/nav_libros"
+        android:title="Ver Libros"
+        android:icon="@android:drawable/ic_menu_edit" />
+
+        <!-- Opción: Cerrar sesión y salir -->
+    <item
+        android:id="@+id/nav_cerrar"
+        android:title="Cerrar sesión"
+        android:icon="@android:drawable/ic_lock_power_off" />
+    </group>
+</menu>

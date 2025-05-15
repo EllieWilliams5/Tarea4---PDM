@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pantalla para los detalles de un producto -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Imagen ampliada del producto -->
+        <ImageView
+            android:id="@+id/imagenProducto"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nombre del producto -->
+        <TextView
+            android:id="@+id/nombreProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_producto_placeholder"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/descripcionProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_producto_placeholder"
+            android:textColor="#333333"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Cantidad -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seleccione_cantidad"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Controles de cantidad -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <!-- Disminuir unidades -->
+            <Button
+                android:id="@+id/btnRestar"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:backgroundTint="#BBFBFF"
+                android:textSize="18sp" />
+
+            <!-- Cantidad en numero -->
+            <TextView
+                android:id="@+id/textCantidad"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <!-- Aumentar unidades -->
+            <Button
+                android:id="@+id/btnSumar"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:backgroundTint="#BBFBFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- Botón para agregar al carro -->
+        <Button
+            android:id="@+id/btnAgregarCarrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_anadir_carrito"
+            android:backgroundTint="#7AC6D2"
+            android:textColor="#ffffff" />
+
+        <!-- Botón para regresar al catálogo -->
+        <Button
+            android:id="@+id/btnVolverCatalogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_volver_catalogo"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#3D90D7"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</ScrollView>

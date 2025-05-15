@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Menu de opciones visible en la parte superior derecha del catalogo.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Opción: Comprar -->
+    <item
+        android:id="@+id/menu_comprar"
+        android:title="Comprar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom|withText" />
+
+    <!-- Opción: Modificar el pedido actual -->
+    <item
+        android:id="@+id/menu_modificar"
+        android:title="Modificar Pedido"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="never" />
+
+    <!-- Opción: Cancelar el pedido actual -->
+    <item
+        android:id="@+id/menu_cancelar"
+        android:title="Cancelar Pedido"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:showAsAction="never" />
+
+    <!-- Opción: Monitorear el estado del pedido -->
+    <item
+        android:id="@+id/menu_monitorear"
+        android:title="Monitorear mi pedido"
+        android:icon="@android:drawable/ic_menu_view"
+        android:showAsAction="never" />
+
+    <!-- Opción: Consultar dudas -->
+    <item
+        android:id="@+id/menu_dudas"
+        android:title="Dudas"
+        android:icon="@android:drawable/ic_menu_help"
+        android:showAsAction="never" />
+
+    <!-- Opción: Enviar comentarios o quejas -->
+    <item
+        android:id="@+id/menu_comentarios"
+        android:title="Comentarios y/o quejas"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="never" />
+
+</menu>

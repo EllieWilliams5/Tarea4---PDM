@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Este archivo define un selector de color para los ítems del menú lateral.
+    El color cambia según el estado del item .
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Color del texto cuando el ítem NO está seleccionado (negro) -->
+    <item android:color="#000000" android:state_checked="false"/>
+
+    <!-- Color del texto cuando el ítem SÍ está seleccionado (blanco) -->
+    <item android:color="#FFFFFF" android:state_checked="true"/>
+</selector>
